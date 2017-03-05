@@ -1,54 +1,3 @@
-w<!-- <html>
-    <head>
-        <style>
-            body {
-                margin: 0px;
-                padding: 0px;
-            }
-
-            a, .fakelink {
-                font-family: 'Lato', sans-serif;
-                text-decoration: none;
-                color: #000;
-                font-size: 15px;
-                outline: none;
-                padding: 8px;
-                display: block !important;
-            }
-
-            p.fakelink {
-                color: #999;
-                margin: 0;
-            }
-
-
-            a:hover {
-                background: #EEE;
-            }
-
-            hr {
-                margin: 0;
-            }
-
-            .disabled {
-              color: #000;
-              background-color: #9f9;
-              pointer-events: none;
-              cursor: default;
-            }
-        </style>
-    </head>
-    <body>
-        <p class="fakelink">Falcon</a>
-        <hr style="color: #999;" />
-        <a id="quick-blacklist">Quick Blacklist</a>
-        <a href="preferences.html">Preferences</a>
-        <a href="https://github.com/lengstrom/falcon-js">Github</a>
-    </body>
-    <script type="text/javascript" src="../js/popup.js"></script>
-</html>
- -->
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,7 +7,6 @@ w<!-- <html>
     </script>
     <script src="/static/phaser.min.js"></script>
     <script src="/static/main.js"></script>
-
     <title>Account Control</title>
     <link href="">
 </head>
@@ -73,23 +21,33 @@ w<!-- <html>
     <br>
     <br>
     <div>
-        <p>Google Drive
-        <a href="">Alpha</a>
-        <a href="">Beta</a>
-        <a href="">Charlie</a>
+        <p>Drive
+        <select class="Selection">
+  			<option >Alpha</option>
+  			<option >Beta</option>
+  			<option >Charlie</option>
+		</select>
+        <p>Classroom
+        <select class="Selection">
+  			<option >Alpha</option>
+  			<option >Beta</option>
+  			<option >Charlie</option>
+		</select>
         </p>
-        <p>
-            Google Classroom
-        <a href="https://classroom.google.com/u/0/h">Alpha</a>
-        <a href="https://classroom.google.com/u/1/h">Beta</a>
-        <a href="https://classroom.google.com/u/2/h">Charlie</a>
+        <p>Calendar
+        <select class="Selection">
+  			<option >Alpha</option>
+  			<option >Beta</option>
+  			<option >Charlie</option>
+		</select>
         </p>
-        <p>Google Calendar
-        <a href="">Alpha</a>
-        <a href="">Beta</a>
-        <a href="">Charlie</a>
+        <p>Gmail
+        <select class="Selection">
+  			<option >Alpha</option>
+  			<option >Beta</option>
+  			<option >Charlie</option>
+		</select>
         </p>
     </div>
-
 </body>
 </html>
