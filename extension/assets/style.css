@@ -1,11 +1,11 @@
+/*
 body {
     padding: 2% 20% !important;
 }
 
 [contenteditable=true]:empty:before {
   content: attr(placeholder);
-  display: block; /* For Firefox */
-}
+  display: block; 
 
 a.delete {
     float: right;
@@ -23,4 +23,37 @@ a.delete:hover {
 
 #clear {
     margin-bottom: 30px;
+}
+*/
+body {
+    font-family: sans-serif;
+    background-color: #e3e9f2;
+    font-color: black;
+}
+
+
+option {
+font-family: sans-serif;
+font-size: 1.0em;
+padding: .5em 1em;
+border-radius: 7px;
+border: none;
+background: white;
+}
+
+input {
+    font-family: sans-serif;
+    font-size: 1.0em;
+    padding: .2em .8em;
+    border-radius: 7px;
+    border: none;
+    background: white;
+}
+select {
+    margin: 0 auto;
+    width: 75px;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 1.0em;
+     
 }
