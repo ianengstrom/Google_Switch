@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Google Switch",
+  "description": "Switch accounts",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_popup": "extension/assets/popup.html"
+  },
+  "permissions": [
+    "webNavigation",
+     "tabs",
+     "http://*/*",
+     "https://*/*" ],
+  "background": {
+    "persistent": true,
+    "scripts": ["extension/js/content.js"]
+
+  }
+
+}
